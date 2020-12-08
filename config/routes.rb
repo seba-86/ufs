@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'uf', to: 'ufomentos#index'
-  get 'uf/:date', to: 'ufomentos#show'
+  get 'uf/:date', to: 'api/ufomentos#date'
 
   get 'users/:name', to: 'users#show'
   get 'users', to: 'users#index'
