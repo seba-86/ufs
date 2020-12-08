@@ -1,0 +1,2 @@
+class Ufomento < ApplicationRecord
+end
